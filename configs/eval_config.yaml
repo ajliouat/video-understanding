@@ -1,0 +1,14 @@
+datasets:
+  - name: "UCF101"
+    path: "data/processed/ucf101.json"
+  - name: "MOT17"
+    path: "data/processed/mot17.json"
+
+metrics:
+  - "mAP"
+  - "MOTA"
+  - "accuracy"
+
+output:
+  log_file: "logs/evaluation.log"
+  results_file: "results/evaluation_results.json"

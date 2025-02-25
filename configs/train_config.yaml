@@ -1,0 +1,18 @@
+model:
+  name: "r3d_18"
+  fine_tune: true
+  pretrained: true
+
+data:
+  train_path: "data/processed/train.json"
+  val_path: "data/processed/val.json"
+  batch_size: 16
+  num_epochs: 10
+
+optimizer:
+  lr: 1e-4
+  weight_decay: 0.01
+
+output:
+  model_dir: "models/fine_tuned/"
+  log_file: "logs/training.log"

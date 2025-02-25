@@ -1,0 +1,9 @@
+[
+    {
+      "video_path": "data/raw/mot17/video1.mp4",
+      "annotations": [
+        {"frame": 0, "bbox": [100, 150, 200, 300], "label": "person"},
+        {"frame": 1, "bbox": [110, 160, 210, 310], "label": "person"}
+      ]
+    }
+  ]

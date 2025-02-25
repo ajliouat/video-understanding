@@ -1,0 +1,9 @@
+[
+    {
+      "video_path": "data/videos/val/video2.mp4",
+      "annotations": [
+        {"frame": 0, "bbox": [120, 170, 220, 320], "label": "car"},
+        {"frame": 1, "bbox": [130, 180, 230, 330], "label": "car"}
+      ]
+    }
+  ]
